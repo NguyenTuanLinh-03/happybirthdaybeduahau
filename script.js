@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // CÀI ĐẶT THỜI GIAN ĐÍCH: Tháng/Ngày/Năm Giờ:Phút:Giây
     // Lưu ý: JavaScript dùng tên tháng tiếng Anh (Jan, Feb...).
     // Cài đặt ngày: 13 Tháng 1 Năm 2027
-    const targetDate = new Date("Feb 05, 2026 23:59:00").getTime();
+    const targetDate = new Date("Feb 02, 2026 23:59:00").getTime();
 
     // Cập nhật mỗi 1 giây
     const timerInterval = setInterval(function() {
@@ -163,3 +163,4 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
 });
+
